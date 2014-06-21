@@ -45,3 +45,8 @@ cacheSolve <- function(x, ...) {
 	
     inverse
 }
+## Solution can be checked using following example
+##demo<-makeCacheMatrix()
+##demo$set(matrix(1:4,2,2))
+##cacheSolve(demo)
+##cacheSolve(demo)
