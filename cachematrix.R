@@ -49,4 +49,7 @@ cacheSolve <- function(x, ...) {
 ##demo<-makeCacheMatrix()
 ##demo$set(matrix(1:4,2,2))
 ##cacheSolve(demo)
-##cacheSolve(demo)
+##solution looks like
+##      [,1] [,2]
+## [1,]   -2  1.5
+## [2,]    1 -0.5
