@@ -33,7 +33,7 @@ list(set=set, get=get,
 ## of the data and sets the value of the Inverse in the cache via the
 ## setinverse function.
 cacheSolve <- function(x, ...) {
-       ## Return a matrix that is the inverse of 'x' 
+  ## Return a matrix that is the inverse of 'x' 
 		 inverse<-x$getinverse()
     if(!is.null(inverse)){
       message("getting cached data")
